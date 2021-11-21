@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("before\n");
+    printf("a=%d\n",a);
+    printf("b=%d",b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("after\n");
+    printf("a=%d\n",a);
+    printf("b=%d",b);
+
+    return 0;
+}
