@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    float r;
+    scanf("%f",&r);
+    float area=4*3.14*r*r;
+    printf("volume of sphere is %f",area);
+
+    return 0;
+}
