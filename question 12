@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    float a,b,h;
+    scanf("%f%f%f",&a,&b,&h);
+    float area=((a+b)*h)/2;
+    printf("the area of trapezium is %f",area);
+
+    return 0;
+}
